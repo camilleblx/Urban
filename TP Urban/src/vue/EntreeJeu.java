@@ -27,7 +27,7 @@ public class EntreeJeu extends JFrame {
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
-			}ca
+			}
 		});
 	}
 	
