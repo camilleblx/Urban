@@ -17,6 +17,13 @@ public class Controle {
 	}
 	
 	public void evenementVue (JFrame uneFarme, Object info) {
+		if (uneFarme instanceof EntreeJeu) {
+			evenementEntreeJeu (info);
+			
+		}
 		
+	}
+	
+	private void evenementEntreeJeu(Object info) {	
 	}
 }
